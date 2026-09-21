@@ -1,4 +1,4 @@
-```markdown
+
 # Decentralized AMR Swarm Simulator
 
 An end-to-end, full-stack simulation of a decentralized Multi-Agent System (MAS) for Autonomous Mobile Robots (AMRs) operating in a 100x100 warehouse environment. 
@@ -27,7 +27,7 @@ This project solves traditional centralized warehouse routing problems by utiliz
 
 ## 📂 Project Structure
 
-```text
+```
 warehouse-amr-swarm/
 ├── backend/                  
 │   ├── main.py                 # FastAPI server & WebSocket broadcaster
@@ -110,6 +110,4 @@ To transition this prototype to physical hardware:
 2. Replace local memory buffers with **SQLite** on the edge (the bots) and **PostgreSQL** on the central server.
 3. Swap Manhattan A* for a continuous-space local planner like **TEB Local Planner** to account for physical turning radii.
 
-```
 
-```
