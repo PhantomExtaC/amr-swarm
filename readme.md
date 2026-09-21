@@ -5,6 +5,22 @@ An end-to-end, full-stack simulation of a decentralized Multi-Agent System (MAS)
 
 This project solves traditional centralized warehouse routing problems by utilizing edge-compute decision making, peer-to-peer (P2P) mesh networking for Wi-Fi dead zones, and the Contract Net Protocol for task auctioning.
 
+### Built With
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+### Production Roadmap Stack
+
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white)
+![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## 🚀 Core Features
 
 * **Decentralized Task Allocation:** Implements the Contract Net Protocol (CNP). Bots autonomously calculate bids for incoming tasks based on A* distance and battery depletion penalties. The lowest bid wins, eliminating the need for a central orchestrator.
